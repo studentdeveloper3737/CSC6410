@@ -1,0 +1,23 @@
+{
+  "student-host:host": {
+    "os": "windows",
+    "default-gateway": "192.168.1.1",
+    "dns-server": ["192.168.1.1"],
+    "interface": [
+      {
+        "name": "Wi-Fi",
+        "type": "wifi",
+        "oper-status": "up",
+        "mtu": 1500
+      },
+      {
+        "name": "Ethernet",
+        "oper-status": "down"
+      },
+      {
+        "name": "Bluetooth Network Connection",
+        "oper-status": "down"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "student-host:host": {
+    "hostname": "DESKTOP-3QPKEEM",
+    "os": "windows",
+    "collected-at": "2026-11-11T10:58:44-06:00",
+    "interface": [
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "type": "loopback",
+        "oper-status": "up",
+        "ipv4": [
+          "127.0.0.1/8"
+        ],
+        "ipv6": [
+          "::1/128"
+        ]
+      },
+      {
+        "name": "Bluetooth Network Connection",
+        "type": "other",
+        "oper-status": "down",
+        "mtu": 1500,
+        "ipv4": [
+          "169.254.37.12/16"
+        ],
+        "ipv6": [
+          "fe80::2066:6df6:ba7:3ddf%3/64"
+        ],
+        "mac": "a0:29:42:xx:xx:xx"
+      },
+      {
+        "name": "Ethernet",
+        "type": "ethernet",
+        "oper-status": "down",
+        "mtu": 1500,
+        "ipv4": [
+          "169.254.34.10/16"
+        ],
+        "ipv6": [
+          "fe80::1158:5153:b6ac:73a1%4/64"
+        ],
+        "mac": "64:4e:d7:xx:xx:xx"
+      },
+      {
+        "name": "Wi-Fi",
+        "type": "wifi",
+        "oper-status": "up",
+        "mtu": 1500,
+        "ipv4": [
+          "192.168.1.5/24"
+        ],
+        "ipv6": [
+          "2401:4900:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/128",
+          "2401:4900:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/64",
+          "fe80::bb14:e8f0:8c89:b726%6/64"
+        ],
+        "mac": "a0:29:42:xx:xx:xx"
+      },
+      {
+        "name": "Local Area Connection* 2",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 1500,
+        "ipv4": [
+          "169.254.156.34/16"
+        ],
+        "ipv6": [
+          "fe80::d12e:33bc:a868:9bd1%10/64"
+        ],
+        "mac": "a2:29:42:xx:xx:xx"
+      },
+      {
+        "name": "Local Area Connection* 1",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 1500,
+        "ipv4": [
+          "169.254.170.172/16"
+        ],
+        "ipv6": [
+          "fe80::c1e1:47af:d1cd:f518%17/64"
+        ],
+        "mac": "a0:29:42:xx:xx:xx"
+      },
+      {
+        "name": "vEthernet (WSL (Hyper-V firewall))",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1500,
+        "ipv4": [
+          "172.18.48.1/20"
+        ],
+        "ipv6": [
+          "fe80::cf82:8865:762d:2e0f%37/64"
+        ],
+        "mac": "00:15:5d:xx:xx:xx"
+      }
+    ],
+    "dns-server": [
+      "192.168.1.1"
+    ],
+    "default-gateway": "192.168.1.1"
+  }
+}
